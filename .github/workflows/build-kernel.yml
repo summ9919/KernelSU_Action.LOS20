@@ -264,8 +264,8 @@ jobs:
           cd ../..
           ls -l telegram-bot-api/bin/telegram-bot-api*
           cp telegram-bot-api/bin/telegram-bot-api telegram-bot-api-binary
-      - name: Upload Binary
-        uses: actions/upload-artifact@master
-        with:
-          name: telegram-bot-api-binary
-          path: telegram-bot-api-binary
+#       - name: Upload Binary
+#         uses: actions/upload-artifact@master
+#         with:
+#           name: telegram-bot-api-binary
+#           path: telegram-bot-api-binary
