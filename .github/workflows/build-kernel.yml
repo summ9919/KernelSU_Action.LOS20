@@ -11,7 +11,7 @@ jobs:
   build:
     name: Build Kernel by ${{ github.actor }}
     runs-on: ubuntu-latest
-    if: github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule'
+    if: github.event.repository.owner.id == github.event.sender.id || contains(github.event.repository.maintainers, github.event.sender) || github.event_name == 'schedule'
     steps:
     - uses: actions/checkout@v3
     - name: Setup Configuration
