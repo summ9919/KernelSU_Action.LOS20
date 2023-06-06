@@ -1,0 +1,13 @@
+{
+  "kernel": {
+    "date": "2023-05-23",
+    "sha1": "32bb6b2fde36e49c6ecf589c7ee3121285e4ee84",
+    "name": "KernelSU",
+    "link": "https://github.com/Nobooooody/KernelSU_Action/releases/download/Image-KernelSU-lineageos_pstar-202305231833/LineageOS19.1_kprobe_KernelSU_boot_pstar-kernel",
+    "changelog_url": "https://github.com/Nobooooody/KernelSU_Action/releases/download/Image-KernelSU-lineageos_pstar-202305231833/changelog.txt",
+    "version": "1"
+  },
+  "support": {
+    "link": "https://github.com/Nobooooody"
+  }
+}
